@@ -4,25 +4,7 @@
 /* Roboto */
 @import url (https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
 
-
-/* html {
-height: 100 %;
-font-family: Roboto, Montserrat;
-}
-
-body {
-margin: 0px;
-background-color: grey;
-}
-
-.hero-image {
-    height: 500px;
-    background-image: url("images/header_image.JPG");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-
+/* MOBILE */
 header {
   height: 500px;
   background-image: url(./images/header_image.jpg);
@@ -101,7 +83,6 @@ font-family: 'Roboto';
 font-weight: bold;
 }
 
-
 .profile-pic {
   background-image: url(./images/johanna_rexin.jpg);
   border: 2px solid white;
@@ -114,8 +95,40 @@ font-weight: bold;
   margin-bottom: -30px;
 }
 
+footer {
+  background-color: #889e81;
+  color: white;
+  height: 200px;
+  font-family: 'Roboto';
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+footer :link, footer :hover {
+  text-decoration: none;
+  color: white;
+}
 
+.contact {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.mail {
+  margin-top: -10px;
+}
+
+/* TABLET */
 @media (min-width: 668px) and (max-width: 1024px) {
 
   .profile-pic {
@@ -125,6 +138,7 @@ font-weight: bold;
   }
 }
 
+/* DESKTOP */
 @media (min-width: 1025px) {
 
   header {
@@ -152,5 +166,25 @@ font-weight: bold;
 
   .header-text {
     margin-bottom: -20px;
+    }  
+
+  footer {
+    height: 570px;
+    font-family: 'Roboto';
+    font-size: 30px;
+    }
+    
+  .contact {
+    font-size: 38px;
+    margin-bottom: -5px;
+    }
+    
+  .name {
+    font-weight: bold;
+    margin-bottom: -10px;
+    }
+    
+  .mail {
+    margin-top: -10px;
     }  
   }
