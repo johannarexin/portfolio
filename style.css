@@ -1,9 +1,9 @@
-/* /* Montserrat */
-/*@import url (https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
-*/
+/* Montserrat */
+@import url (https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+
 /* Roboto */
-/*@import url (https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
-*/
+@import url (https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+
 
 /* html {
 height: 100 %;
@@ -25,7 +25,6 @@ background-color: grey;
 
 header {
   height: 500px;
-  /* background-color: lightgreen; */
   background-image: url(./images/header_image_2.jpg);
   background-position: center;
   background-size: cover;
@@ -41,17 +40,67 @@ body {
   margin: 8px;
 }
 
+.icon-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
 .icon {
+margin: 3px;
 border: 3px solid white;
 border-radius: 50%;
 height: 40px;
 width: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+img {
+  height: 20px;
+  width: 20px;
 }
 
 .header-text {
   color: white;
   align-self: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  margin-bottom: -75px;
 }
+
+.header-text p {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+.header-text-communications {
+font-family: 'Montserrat';
+font-weight: bold;
+font-size: 24px;
+color: white;
+align-self: flex-start;
+}
+
+.small-header-text {
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  margin-bottom: -90px;
+}
+
+.header-portfolio {
+font-family: 'Roboto', 'regular';
+margin-right: 3px;
+}
+
+.header-name {
+font-family: 'Roboto';
+font-weight: bold;
+}
+
 
 .profile-pic {
   background-image: url(./images/johanna_rexin.jpg);
