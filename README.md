@@ -1,9 +1,8 @@
 # Portfolio
-Replace this readme with your own information about your project.
-Start by briefly describing the assignment in a sentence or two. Keep it short and to the point.
+This weeks project was to build a portfolio using HTML and CSS. Then we should test the site on different devices, sites + chech the accessibility.
 
 # The problem
-Describe how you approached to problem, and what tools and techniques you used to solve it. How did you plan? What technologies did you use? If you had more time, what would be next?
+I feel like I'm really behind and that I can't finish the projects on the given time (one week). For me just to code the portfolio as wanted (using the given deisgn) has taken me the whole week and I'm not even finished yet. Haven't even started with the testing and accessibility :(. 
 
 # View it live
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://johanna-rexin-portfolio.netlify.app/
