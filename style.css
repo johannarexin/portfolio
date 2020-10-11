@@ -17,32 +17,32 @@ header {
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
-}
+  }
 
 body {
   margin: 8px;
-}
+  }
 
 .icon-wrapper {
   display: flex;
   flex-direction: row;
-}
+  }
 
 .icon {
-margin: 3px;
-border: 2px solid white;
-border-radius: 50%;
-height: 40px;
-width: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
+  margin: 3px;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 
 img {
   height: 20px;
   width: 20px;
-}
+  }
 
 .header-text {
   color: white;
@@ -50,19 +50,19 @@ img {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   margin-bottom: -75px;
-}
+  }
 
 .header-text p {
   font-family: 'Roboto', 'sans-serif';
-}
+  }
 
 .header-text-communications {
-font-family: 'Montserrat';
-font-weight: bold;
-font-size: 24px;
-color: white;
-align-self: flex-start;
-}
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  align-self: flex-start;
+  }
 
 .small-header-text {
   color: white;
@@ -72,17 +72,17 @@ align-self: flex-start;
   justify-content: center;
   align-self: flex-start;
   margin-bottom: -90px;
-}
+  }
 
 .header-portfolio {
-font-family: 'Roboto', 'regular';
-margin-right: 3px;
-}
+  font-family: 'Roboto', 'regular';
+  margin-right: 3px;
+  }
 
 .header-name {
-font-family: 'Roboto';
-font-weight: bold;
-}
+  font-family: 'Roboto';
+  font-weight: bold;
+  }
 
 .profile-pic {
   background-image: url(./images/johanna_rexin.jpg);
@@ -93,20 +93,20 @@ font-weight: bold;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin-bottom: -30px;
-}
+  margin-bottom: -10px;
+  }
 
 .decoration {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-}
+  }
 
 .line {
   width: 70px;
   height: 4px;
   background: #698474;
-}
+  }
 
 .circle {
   width: 15px;
@@ -114,7 +114,7 @@ font-weight: bold;
   background: #698474;
   border-radius: 50%;
   margin-left: -3px;
-}
+  }
 
 .portfolio-section {
   padding: 10px 36px; 
@@ -123,31 +123,63 @@ font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+  }
 
 .portfolio-section-green {
   padding: 10px 36px;
   font-family: 'Montserrat', 'regular';
   background-color: #bac7a7;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 
 .project-card {
-text-decoration: none;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  }
 
 .h4 {
   color: white;
   background-color: #698474;
+  width: fit-content;
+  height: 14px;
   padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: fit-content;
-  height: 14px;
-}
+  }
+
+p :visited {
+  color: white; 
+  }
+
+.for-more-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  }
+
+.for-more-icon {
+  margin: 3px;
+  border: 2px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+.for-more-name {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  }
 
 footer {
   background-color: #698474;
@@ -159,86 +191,137 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
+  }
 
-footer :link, footer :hover :visited {
+footer :link, footer :hover, footer :visited {
   text-decoration: none;
   color: white;
-}
+  }
 
 .contact {
   font-family: 'Montserrat';
   font-weight: bold;
   font-size: 20px;
   margin-bottom: -5px;
-}
+  }
 
 .name {
   font-weight: bold;
   margin-bottom: -10px;
-}
+  }
 
 .mail {
   margin-top: -10px;
-}
+  }
 
 /* TABLET */
 @media (min-width: 668px) and (max-width: 1024px) {
 
-  .profile-pic {
-    width: 200px;
-    height: 200px;
-    margin-bottom: -15px;
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  margin-bottom: -15px;
   }
+
+.icon {
+  height: 60px;
+  width: 60px;
+  }
+
+img {
+  height: 30px;
+  width: 30px;
+  }
+
+.for-more-icon {
+  height: 60px;
+  width: 60px;
+  }
+
+.portfolio-section {
+  padding: 50px 150px; 
+  }
+    
+.portfolio-section-green {
+  padding: 50px 150px;
+  }
+
 }
 
 /* DESKTOP */
 @media (min-width: 1025px) {
 
-  header {
-    padding: 100px 100px 0px 100px;
-    }
-
-  .profile-pic {
-    width: 300px;
-    height: 300px;
-    margin-bottom: -20px;
-    }
-  .icon {
-    height: 50px;
-    width: 50px;
-    }
-
-  img {
-    height: 30px;
-    width: 30px;
-    }    
-
-  .small-header-text {
-    margin-bottom: -35px;
-    }
-
-  .header-text {
-    margin-bottom: -20px;
-    }  
-
-  footer {
-    height: 570px;
-    font-family: 'Roboto';
-    font-size: 30px;
-    }
-    
-  .contact {
-    font-size: 38px;
-    margin-bottom: -5px;
-    }
-    
-  .name {
-    font-weight: bold;
-    margin-bottom: -10px;
-    }
-    
-  .mail {
-    margin-top: -10px;
-    }  
+header {
+  padding: 100px 100px 0px 100px;
   }
+
+.profile-pic {
+  width: 300px;
+  height: 300px;
+  margin-bottom: -20px;
+  }
+
+.icon {
+  height: 50px;
+  width: 50px;
+  }
+
+img {
+  height: 30px;
+  width: 30px;
+  }    
+
+.small-header-text {
+  margin-bottom: -35px;
+  }
+
+.header-text {
+  margin-bottom: -20px;
+  }  
+
+.portfolio-section {
+  padding: 75px 200px; 
+  }
+    
+.portfolio-section-green {
+  padding: 75px 200px;
+  }
+
+p {
+  font-size: 24px;
+  }
+
+h4 {
+  font-size: 25px;
+  }
+
+.h4 {
+  padding: 10px;
+  }
+
+.for-more-icon {
+  height: 50px;
+  width: 50px;
+  }
+
+footer {
+  height: 570px;
+  font-family: 'Roboto';
+  font-size: 30px;
+  }
+    
+.contact {
+  font-size: 38px;
+  margin-bottom: -5px;
+  }
+    
+.name {
+  font-weight: bold;
+  margin-bottom: -10px;
+  }
+    
+.mail {
+  margin-top: -10px;
+  font-size: 24px;
+  }  
+}
