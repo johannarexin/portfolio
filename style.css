@@ -127,6 +127,7 @@ img {
   }
 
 h4 {
+  font-size: 24px;
   color: white;
   background-color: #698474;
   width: fit-content;
@@ -137,8 +138,9 @@ h4 {
   }
 
 h5 {
-  display: inline;
-  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
   line-height: 30px;
   color: #698474;
   font-weight: 700;
@@ -148,21 +150,19 @@ p :visited {
   color: white; 
   }
 
-.skill-container {
-  display: flex;
-  justify-content: space-evenly;
-}
+  .skill-container {
+    display: block;
+  }
 
-.skill-container div {
-  width: 100%;
-}
+  .skill-container div {
+    margin: 20px 0;
+  }
 
-.skill-container li {
-  font-size: 20px;
-  line-height: 30px;
-  width: 100%;
-  list-style-type: none;
-}
+  .skill-container li {
+    font-size: 16px;
+    list-style: none;
+    margin: auto;
+  }
 
 .for-more-container {
   width: 60%;
