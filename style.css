@@ -18,6 +18,11 @@ header {
   justify-content: space-between;
   }
 
+.bold-text {
+  color: #698474;
+  font-weight: bold;
+}
+
 body {
   margin: 8px;
   }
@@ -95,27 +100,6 @@ img {
   margin-bottom: -10px;
   }
 
-.decoration {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  }
-
-.line {
-  display: inline-block;
-  width: 80px;
-  height: 9px;
-  }
-
-.circle {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  background: #698474;
-  border-radius: 50%;
-  margin-left: -3px;
-  }
-
 .portfolio-section {
   padding: 10px 36px; 
   font-family: 'Montserrat', 'regular';
@@ -156,10 +140,22 @@ p :visited {
   color: white; 
   }
 
-.for-more-wrapper {
+.for-more-container {
+  width: 60%;
+  max-width: 1360px;
+  padding-top: 30px;
+  margin: auto;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  }
+
+.for-more-wrapper {
   padding: 10px;
+  }
+
+.for-more-wrapper img {
+  width: 170px;
   }
 
 .for-more-icon {
@@ -262,12 +258,14 @@ header {
 .profile-pic {
   width: 280px;
   height: 280px;
+  border: 3px solid white;
   margin-bottom: -25px;
   }
 
 .icon {
   height: 50px;
   width: 50px;
+  border: 3px solid white;
   }
 
 img {
@@ -286,11 +284,11 @@ img {
   }
 
 .portfolio-section {
-  padding: 75px 200px; 
+  padding: 75px 300px; 
   }
     
 .portfolio-section-green {
-  padding: 75px 200px;
+  padding: 75px 300px;
   }
 
 p {
@@ -303,12 +301,25 @@ h4 {
   }
 
 .for-more-icon {
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
+  border: 3px solid white;
   }
 
+.for-more-icon img {
+  height: 40px;
+  width: 40px;
+  }
+
+a {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 footer {
-  height: 570px;
+  height: 370px;
   font-family: 'Roboto';
   font-size: 30px;
   }
@@ -322,9 +333,13 @@ footer {
   font-weight: bold;
   margin-bottom: -10px;
   }
+
+.number {
+  font-size: 22px;
+}
     
 .mail {
   margin-top: -10px;
-  font-size: 24px;
+  font-size: 22px;
   }  
 }
