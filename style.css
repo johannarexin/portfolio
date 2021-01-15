@@ -118,7 +118,7 @@ img {
   align-items: center;
   }
 
-.project-card {
+.portfolio-container {
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -139,6 +139,30 @@ h4 {
 p :visited {
   color: white; 
   }
+
+  .skills-section {
+    padding-bottom: 30px;
+}
+
+.skills-lists-container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-section-title {
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.skill-list h2, li {
+    font-size: 17px;
+}
+
+.skill-list {
+    width: 40%;
+}
 
 .for-more-container {
   width: 60%;
@@ -284,11 +308,11 @@ img {
   }
 
 .portfolio-section {
-  padding: 75px 300px; 
+  padding: 75px 200px; 
   }
     
 .portfolio-section-green {
-  padding: 75px 300px;
+  padding: 75px 200px;
   }
 
 p {
