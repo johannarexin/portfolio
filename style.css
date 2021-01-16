@@ -324,6 +324,26 @@ h4 {
   padding: 10px;
   }
 
+.portfolio-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-container {
+  display: flex;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.for-more-wrapper {
+  display: flex;
+}
+
 .for-more-icon {
   height: 70px;
   width: 70px;
