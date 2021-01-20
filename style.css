@@ -48,12 +48,17 @@ img {
   width: 20px;
   }
 
+.project-image img {
+  width: 100%;
+  margin: 20px;
+}
+
 .header-text {
   color: white;
   align-self: flex-start;
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  margin-bottom: -75px;
+  margin-bottom: -55px;
   }
 
 .header-text p {
@@ -140,6 +145,7 @@ h4 {
 h5 {
   display: flex;
   justify-content: center;
+  align-items: center;
   font-size: 16px;
   line-height: 30px;
   color: #698474;
@@ -149,6 +155,62 @@ h5 {
 p :visited {
   color: white; 
   }
+
+/*** FEATURED PROJECTS DESIGN ***/
+
+.featured-project-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.featured-project {
+  width: 370px;
+  margin-bottom: 40px;
+}
+
+.featured-project:last-child, .featured-project:nth-last-child(2) {
+  margin-bottom: 0;
+}
+
+.featured-project img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.code-tag-container {
+  display: flex;
+  margin-bottom: 0;
+}
+
+.code-tag {
+  padding: 5px 10px;
+  margin-right: 5px;
+  background-color: #ffc3b7;
+  font-family: 'Roboto', sans-serif; 
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  display: inline;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+.underline {
+  text-decoration: underline;
+}
 
   .skill-container {
     display: block;
@@ -269,7 +331,7 @@ img {
   display: flex;
 }
 
-.skills-title {
+.skills-subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -279,6 +341,12 @@ h4 {
   font-size: 22px;
   padding: 8px;
 }
+
+h5 { 
+  font-size: 20px;
+  color: #698474;
+  font-weight: 700;
+  }
 
 }
 
@@ -338,7 +406,19 @@ h5 {
   font-size: 20px;
   color: #698474;
   font-weight: 700;
+}
+
+.projects-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
+
+.project-text {
+  color: black;
+  display: flex;
+  justify-content: center;
+}  
 
 .portfolio-container {
   display: flex;
@@ -350,11 +430,21 @@ h5 {
   display: flex;
 }
 
-.skills-title {
+.skills-subtitle {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
+
+.for-more-container {
+  width: 60%;
+  max-width: 1360px;
+  padding-top: 30px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
 
 .for-more-wrapper {
   display: flex;
@@ -364,12 +454,21 @@ h5 {
   height: 70px;
   width: 70px;
   border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
 
 .for-more-icon img {
   height: 40px;
   width: 40px;
   }
+
+.for-more-name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  } 
 
 a {
   color: white;
